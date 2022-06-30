@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>PotLuck</title>
+  </head>
+  <body>
+  <!--Main Navbar-->
+    <nav class="navbar navbar-expand-md fixed-top" id="mainNavBar">
+      <div class="container">
+        <!--Potluck Logo-->
+        <div>
+            
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html">
+                <img src="images/chefhatlogo.svg.svg" href="#learn" alt="chef's hat logo" class="nav-link" id="chefHatLogo">
+            </a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link" id = "potLuckLogo">PotLuck</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Navigation Menu -->
+        <div class="collapse-navbar-collapse">
+          <ul class="navbar-nav " >
+            <li class="nav-item nav-btns">
+              <span class="hovertext" data-hover="See All Recipes"> 
+              <a href="#hamburgermenu" class="nav-link"><img src="images/picnic-table.svg" alt="navbar menu" class = "logobtn" > </a>
+            </span>
+            </li>
+            <li class="nav-item nav-btns">
+              <span class="hovertext" data-hover="Meet The Chefs"> 
+              <a href="#questions" class="nav-link">
+                <img src="images/chef.svg" alt="see my recipes" class = "logobtn">
+              </a>
+            </span>
+            </li>
+            <li class="nav-item nav-btns">
+              <span class="hovertext" data-hover="Add New Recipe"> 
+              <a href="#learn" class="nav-link">
+                <img src="images/add-btn.svg" alt="see all recipes" class = "logobtn">
+              </a>
+            </span>
+            </li>
+            
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">
+                <img src="images/hamburger-menu.svg" alt="add new recipe" class = "logobtn" id = "hamburgerMenu"> </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+    <!-- Main Container -->
+    <div class="container">
+        <div class="d-flex justify-content-center centerColumn">
+          <!-- Left Column (empty for now) -->
+            <div id="leftColumn"  class= "col-sm-3"></div>
+            <div class="hero">
+              <!-- Main Card Template. Will turn into a react component later -->
+              <div class="card col-sm-12 mainCard">
+                <!-- Card Header -->
+                <div class="card-header">
+                  <div>
+                      <div class="avatarBackground">
+                      <img src="https://picsum.photos/400" alt="" class="avatar">
+                      </div>                          
+                  </div>
+                  <div class="userName">
+                      userName
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <img src="https://picsum.photos/400" alt="this will be food" class = "food-pic">
+                  <!-- Card Text. Will turn all of these into react components -->
+                  <h5 class="card-title">Special title treatment <span> by </span> userName</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex in minus suscipit accusamus voluptatum. Porro minima, tempore quidem atque totam velit, dolore dolorum corrupti similique iste aperiam, consequatur nulla rem?
+              </p>
+                <!-- Card Footer. Will probably make this a react component as well. -->
+                  <footer>
+                  <a href="#" class="btn btn-primary">Visit Chef's Page</a>
+                  <a href="#" class="btn btn-primary">View Recipe</a>
+                </footer>
+                </div>
+              </div>
+            </div>
+            <!-- Right Column -->
+            <div id = "rightColumn" class ="col-sm-3"> 
+              <div class="card suggestedChefsCard">
+                <div class="card-body suggestedChefHeader">
+                  <h7 class="card-title suggested-chef-title"> Featured Chefs</h7>
+                </div>
+              <div class="card-header suggestedChef">
+                <div>
+                    <div class="avatarBackground">
+                    <img src="https://picsum.photos/400" alt="" class="avatar">
+                    </div>                          
+                </div>
+                <div class="userName suggestedChefUserName">
+                    userName
+                </div>
+              </div>
+              
+              
+            </div>
+            </div>
+        </div>
+     </body>
+</html>
