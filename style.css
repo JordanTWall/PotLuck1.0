@@ -4,6 +4,11 @@
   flex-wrap: nowrap;
 }
 
+.add-recipe {
+  visibility: hidden !important;
+}
+
+
 .logobtn {
   height: 50px;
   width: 50px;
@@ -73,6 +78,7 @@ ul {
   overflow: hidden;
   margin-top: 2px;
 }
+
 
 .chefPicDiv {
   height: 100%;
@@ -249,6 +255,25 @@ a {
   
 }
 
+.recipe {
+  border-top: 1px solid #d2d2d2;
+}
+
+.ingredients-list {
+  font-size: 14px;
+  text-align: left;
+  border-bottom: 1px solid #d2d2d2;
+  padding-bottom: 15px;
+  list-style: circle;
+}
+
+.recipe-steps {
+  font-size: 14px;
+  text-align: left;
+  border-bottom: 1px solid #d2d2d2;
+  padding-bottom: 15px;
+}
+
 @media only screen and (max-width: 1200px) {
   #leftColumn {
     display: none;
@@ -256,9 +281,9 @@ a {
   #rightColumn {
     display: none;
   }
-  .nav-btns {
+  /* .nav-btns {
     display: none;
-  } 
+  }  */
 
    #chefHatLogo {
     display: none !important;
@@ -267,12 +292,12 @@ a {
   #potLuckLogo {
     margin-left: 1px;
   }
-  #hamburgerMenu {
+  /* #hamburgerMenu {
     display: unset;
     height: 50px;
     width: 50px;
     position: relative;
-  }
+  } */
   
 }
 
