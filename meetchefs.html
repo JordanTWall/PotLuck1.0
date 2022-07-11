@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="style.css" />
+    <title>Chef Suzie</title>
+  </head>
+  <body>
+  <!--Main Navbar-->
+    <nav class="navbar navbar-expand-md fixed-top" id="mainNavBar">
+      <div class="container">
+        <!--Potluck Logo-->
+        <div>
+            
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html">
+                <img src="images/chefhatlogo.svg.svg" href="#learn" alt="chef's hat logo" class="nav-link" id="chefHatLogo">
+            </a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link" id = "potLuckLogo">PotLuck</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Navigation Menu -->
+        <div class="collapse-navbar-collapse">
+          <ul class="navbar-nav " >
+            <li class="nav-item nav-btns">
+              <span class="hovertext" data-hover="See All Recipes"> 
+              <a href="#hamburgermenu" class="nav-link"><img src="images/picnic-table.svg" alt="navbar menu" class = "logobtn" > </a>
+            </span>
+            </li>
+            <li class="nav-item nav-btns">
+              <span class="hovertext" data-hover="Meet The Chefs"> 
+              <a href="./meetchefs.html" class="nav-link">
+                <img src="images/chef.svg" alt="Meet The Chefs" class = "logobtn">
+              </a>
+            </span>
+            </li>
+            <li class="nav-item nav-btns">
+              <span class="hovertext" data-hover="Add New Recipe"> 
+              <a href="#learn" class="nav-link">
+                <img src="images/add-btn.svg" alt="see all recipes" class = "logobtn">
+              </a>
+            </span>
+            </li>
+            
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">
+                <img src="images/hamburger-menu.svg" alt="add new recipe" class = "logobtn" id = "hamburgerMenu"> </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+    <!-- Main Container -->
+    <div class="container">
+        <div class="d-flex justify-content-center columnsNStuff">
+          <!-- Left Column (empty for now) -->
+            <div id="leftColumn"  class= "col-sm-3"></div>
+            <!-- Main column -->
+              <div class="hero">
+                <!-- Chef Bio Card -->
+          <div class="card col-sm-12 mainCard">
+                            
+            <!-- Card Body -->
+            <div class="card-body">
+              <a href="./suzieq.html"><div class = chefPicDiv>
+                <img src="./images/suzieq.jpg" alt="Suzie Q" class = "food-pic">
+              </div></a>
+              <!-- Card Text. -->
+              <h4 class="card-title">Chef Suzie Q</h4>
+              <p class="card-text"> Hello PotLuckers! I'm Suzie. My grandkids said I need to "get with it" and get on social media. I finally found an app I like! Enjoy the recipes!
+              </p>
+              <a href="./suzieq.html" class="btn btn-primary">Chef's Page</a>
+            
+              
+            </div>
+          </div>
+               <!-- recipes go here -->
+
+
+               <!-- Eggs Benedict -->
+               <div class="card col-sm-12 mainCard">
+                            
+                <!-- Card Body -->
+                <div class="card-body">
+                  <a href="./kaitlynwall.html"><div class = chefPicDiv>
+                    <img src="./images/kaitlynwall.jpg" alt="kaitlyn Wall" class = "food-pic">
+                  </div></a>
+                  <!-- Card Text. -->
+                  <h4 class="card-title">Chef Kaitlyn Wall</h4>
+                  <p class="card-text"> Amazing wife and excellent home chef. Favorite recipes include  Jordan's Homemade Marguaritas and Ravioli!
+                  </p>
+                  <a href="./kaitlynwall.html" class="btn btn-primary">Chef's Page</a>
+                 
+                  
+                </div>
+              </div>
+
+              <div class="card col-sm-12 mainCard">
+                            
+                <!-- Card Body -->
+                <div class="card-body">
+                  <a href="./jordanwall.html"><div class = chefPicDiv>
+                    <img src="./images/jordanwall.jpg" alt="Jordan Wall" class = "food-pic">
+                  </div></a>
+                  <!-- Card Text. -->
+                  <h4 class="card-title">Chef Jordan Wall</h4>
+                  <p class="card-text"> Hi! My name is Jordan Wall. I'm an amatuer chef and professional web developer. When I'm not coding or in the kitchen, I enjoy powerlifting, dog training, and learning new things. 
+                  </p>
+                  <a href="./jordanwall.html" class="btn btn-primary">Chef's Page</a>
+                
+                  
+                </div>
+              </div>
+
+              
+            
+
+              
+               
+
+                
+
+            
+
+
+              </div>
+              
+            <!-- Right Column -->
+            <div id = "rightColumn" class ="col-sm-3"> 
+              <div class="card r-col-footer-container">
+                <!-- header of the footer (there has to be a better name for that, right?) -->
+                <div class="card-body header-of-footer">
+                  <h7 class="card-title suggested-chef-title"> Featured Chefs</h7>
+                </div>
+
+
+                <!-- Suggested Chef Template. Again React Component -->
+              <a href ="./jordanwall.html" class="card-header suggestedChef">
+                <div>
+                    <div class="avatarBackground">
+                      <img src="./images/jordanwall.jpg" alt="Jordan Wall" class="avatar">
+                    </div>                          
+                </div>
+                <div class="userName suggestedChefUserName">
+                    Jordan Wall
+                </div>
+              </a>
+              
+              <a href ="bobsmith.html" class="card-header suggestedChef">
+                <div>
+                    <div class="avatarBackground">
+                      <img src="./images/bobsmith.jpg" alt="Bob Smith" class="avatar">
+                    </div>                          
+                </div>
+                <div class="userName suggestedChefUserName">
+                    Bob Smith
+                </div>
+              </a>
+
+              <a href ="suzieq.html" class="card-header suggestedChef">
+                <div>
+                    <div class="avatarBackground">
+                      <img src="./images/suzieq.jpg" alt="Suzie Q" class="avatar">
+                    </div>                          
+                </div>
+                <div class="userName suggestedChefUserName">
+                    Suzie Q
+                </div>
+              </a>
+
+              <a href ="./kaitlynwall.html" class="card-header suggestedChef">
+                <div>
+                    <div class="avatarBackground">
+                      <img src="./images/kaitlynwall.jpg" alt="Kaitlyn Wall" class="avatar">
+                    </div>                          
+                </div>
+                <div class="userName suggestedChefUserName">
+                    Kaitlyn Wall
+                </div>
+              </a>
+             
+              
+              <!-- footer of the footer -->
+              <div class="card-body footer-of-footer">
+                <h7 class="card-title suggested-chef-title"> This is my footer. I will write all of the content here later. It will contain my name, as well as a link to my portfolio. </h7>
+              </div>
+             
+            </div>
+          </div>
+            
+        </div>
+        <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"
+      ></script>
+      <script src="script.js"></script>
+     </body>
+</html>

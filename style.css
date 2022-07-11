@@ -16,6 +16,7 @@
   position: relative;
 }
 
+
 #potLuckLogo {
   font-family: "Imperial Script";
   font-style: normal;
@@ -46,6 +47,10 @@ body {
   height: 100%;
 }
 
+.header-a-tag {
+  text-decoration: none;
+  color: inherit;
+}
 
 
 .avatar {
@@ -60,7 +65,7 @@ ul {
 .avatarBackground {
   height: 60px;
   width: 60px;
-  background-color: #92b7da;
+  
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -70,9 +75,9 @@ ul {
 }
 
 .chefPicDiv {
-height: 100%;
+  height: 100%;
   width: 100%;
-  background-color: #92b7da;
+  
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -112,11 +117,19 @@ height: 100%;
 
 .suggestedChefUserName {
   margin-left: 10px;
+
+  color: inherit !important; 
+  text-decoration: none !important;
 }
 .card-body {
   text-align: center;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important; 
 }
 
 .card-title {
@@ -223,6 +236,19 @@ height: 100%;
   visibility: visible;
 }
 
+.card {
+  border-radius: 25px !important;
+}
+
+.mainCard {
+  border-radius: 25px !important;
+}
+.card-header {
+  border-top-left-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+  
+}
+
 @media only screen and (max-width: 1200px) {
   #leftColumn {
     display: none;
@@ -232,10 +258,11 @@ height: 100%;
   }
   .nav-btns {
     display: none;
-  }
+  } 
 
-  #chefHatLogo {
-    display: none;
+   #chefHatLogo {
+    display: none !important;
+    height: 0;
   }
   #potLuckLogo {
     margin-left: 1px;

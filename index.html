@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-
+    
     <link rel="stylesheet" href="style.css" />
     <title>PotLuck</title>
   </head>
@@ -49,8 +49,8 @@
             </li>
             <li class="nav-item nav-btns">
               <span class="hovertext" data-hover="Meet The Chefs"> 
-              <a href="#questions" class="nav-link">
-                <img src="images/chef.svg" alt="see my recipes" class = "logobtn">
+              <a href="./meetchefs.html" class="nav-link">
+                <img src="images/chef.svg" alt="Meet The Chefs" class = "logobtn">
               </a>
             </span>
             </li>
@@ -80,50 +80,333 @@
             <!-- Main column -->
               <div class="hero">
                 
-                <!-- Main Card Template. Will turn into a react component later -->
+
+
+
+
+              <!-- Margs -->
+              <div class="card col-sm-12 mainCard">
+                <!-- Card Header -->
+                <div class= "card-header">
+                  <a href = "./suzieq.html"  class = 'header-a-tag'>
+                      <div class="avatarBackground">
+                      <img src="./images/suzieq.jpg" alt="Suzie Q" class="avatar">
+                      </div>                          
+                    </a>
+                  <div class="userName">
+                    <a href="suzieq.html">
+                      Suzie Q
+                    </a>
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <a href="./margs.html"><img src="./images/marg.jpg" alt="marg" class = "food-pic"></a>
+                  <!-- Card Text. Will turn all of these into react components -->
+                  <h5 class="card-title">Homemade Margs with Fresh Citrus</h5>
+                  <p class="card-text"> Every wonder why restaurant margaritas taste so much better? The secret is the citrus oils in the lemon and lime peels! </p>
+                <!-- Card Footer -->
+                  <footer>
+                  <a href="./suzieq.html" class="btn btn-primary">Chef's Page</a>
+                  <a href="./margs.html" class="btn btn-primary">Recipe</a>
+                </footer>
+                </div>
+              </div>
+
+              <!-- Breakfast Sandwich -->
+              <div class="card col-sm-12 mainCard">
+                <!-- Card Header -->
+                <div class= "card-header">
+                  <a href = "./bobsmith.html"  class = 'header-a-tag'>
+                      <div class="avatarBackground">
+                      <img src="./images/bobsmith.jpg" alt="Bob Smith" class="avatar">
+                      </div>                          
+                    </a>
+                  <div class="userName">
+                    <a href="bobsmith.html">
+                      Bob Smith
+                    </a>
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <a href="./breakfastsammy.html"><img src="./images/breakfastsandwich.jpg" alt="breakfast sandwich" class = "food-pic"></a>
+                  <!-- Card Text. Will turn all of these into react components -->
+                  <h5 class="card-title">Bob's Summer Breakfast Sammy</h5>
+                  <p class="card-text"> There's nothing like putting adding fresh-from-the-garden tomato, basil, and avacado to a traditional breakfast sandwich to give it a fresh, summer flavor!  </p>
+                <!-- Card Footer -->
+                  <footer>
+                  <a href="./bobsmith.html" class="btn btn-primary">Chef's Page</a>
+                  <a href="./breakfastsammy.html" class="btn btn-primary">Recipe</a>
+                </footer>
+                </div>
+              </div>
+
+
+
+
+               <!-- Juicy Steak -->
                 <div class="card col-sm-12 mainCard">
                   <!-- Card Header -->
-                  <div class="card-header">
-                    <div>
+                  <div class= "card-header">
+                    <a href = "./jordanwall.html"  class = 'header-a-tag'>
                         <div class="avatarBackground">
-                        <img src="https://picsum.photos/400" alt="" class="avatar">
+                        <img src="./images/jordanwall.jpg" alt="" class="avatar">
                         </div>                          
-                    </div>
+                      </a>
                     <div class="userName">
-                        userName
+                      <a href="">
+                        Jordan Wall
+                      </a>
                     </div>
                   </div>
                   <!-- Card Body -->
                   <div class="card-body">
-                    <img src="https://picsum.photos/400" alt="this will be food" class = "food-pic">
+                    <a href="./juicysteak.html"><img src="./images/juicysteak.jpg" alt="Juicy Steak" class = "food-pic"></a>
                     <!-- Card Text. Will turn all of these into react components -->
-                    <h5 class="card-title">Special title treatment <span> by </span> userName</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex in minus suscipit accusamus voluptatum. Porro minima, tempore quidem atque totam velit, dolore dolorum corrupti similique iste aperiam, consequatur nulla rem?
+                    <h5 class="card-title">Perfectly Juicy London Broil</h5>
+                    <p class="card-text">I make this steak for my family on a weekly basis. It's an incredibly inexpensive cut of meat, but with this recipe, it tastes like a million bucks!
                     </p>
-                  <!-- Card Footer. Will probably make this a react component as well. -->
+                  <!-- Card Footer -->
                     <footer>
-                    <a href="#" class="btn btn-primary">Visit Chef's Page</a>
-                    <a href="#" class="btn btn-primary">View Recipe</a>
+                    <a href="./jordanwall.html" class="btn btn-primary">Chef's Page</a>
+                    <a href="./juicysteak.html" class="btn btn-primary">Recipe</a>
                   </footer>
                   </div>
                 </div>
 
-                <!-- Main Card Template. Will turn into a react component later -->
-                <div class="card col-sm-12 mainCard">
-                  
-                  <!-- Card Body -->
-                  <div class="card-body">
-                    <div class = chefPicDiv>
-                      <img src="https://picsum.photos/400" alt="this will be food" class = "food-pic">
-                    </div>
-                    <!-- Card Text. Will turn all of these into react components -->
-                    <h4 class="card-title">Chef Jordan Wall</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex in minus suscipit accusamus voluptatum. Porro minima, tempore quidem atque totam velit, dolore dolorum corrupti similique iste aperiam, consequatur nulla rem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex in minus suscipit accusamus voluptatum. Porro minima, tempore quidem atque totam velit, dolore dolorum corrupti similique iste aperiam, consequatur nulla rem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex in minus suscipit accusamus voluptatum. Porro minima, tempore quidem atque totam velit, dolore dolorum corrupti similique iste aperiam, consequatur nulla rem?
-                    </p>
-                  <!-- Card Footer. Will probably make this a react component as well. -->
-                    
+              <!-- German Potato Salad -->
+              <div class="card col-sm-12 mainCard">
+                <!-- Card Header -->
+                <div class= "card-header">
+                  <a href = "./kaitlynwall.html"  class = 'header-a-tag'>
+                      <div class="avatarBackground">
+                      <img src="./images/kaitlynwall.jpg" alt="Kaitlyn Wall" class="avatar">
+                      </div>                          
+                    </a>
+                  <div class="userName">
+                    <a href="kaitlynwall.html">
+                      Kaitlyn Wall
+                    </a>
                   </div>
                 </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <a href="./germanpotatosalad.html"><img src="./images/germanpotatosalad.jpg" alt="german potato salad" class = "food-pic"></a>
+                  <!-- Card Text. Will turn all of these into react components -->
+                  <h5 class="card-title">German Potato Salad </h5>
+                  <p class="card-text">You haven't had potato salad until you've had this German Potato Salad! It replaces the mayo in most potato salads with a tangy bacon/dijan vinegarette. And because there's no mayo, it's perfect for a cookout, picnic, or <span style="font-style: italic">especially</span> POTLUCK!
+                  </p>
+                <!-- Card Footer -->
+                  <footer>
+                  <a href="./kaitlynwall.html" class="btn btn-primary">Chef's Page</a>
+                  <a href="./perogies.html" class="btn btn-primary">Recipe</a>
+                </footer>
+                </div>
+              </div>
+
+              <!-- Eggs Benedict -->
+              <div class="card col-sm-12 mainCard">
+                <!-- Card Header -->
+                <div class= "card-header">
+                  <a href = "./suzieq.html"  class = 'header-a-tag'>
+                      <div class="avatarBackground">
+                      <img src="./images/suzieq.jpg" alt="Suzie Q" class="avatar">
+                      </div>                          
+                    </a>
+                  <div class="userName">
+                    <a href="suzieq.html">
+                      Suzie Q
+                    </a>
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <a href="./eggsbenedict.html"><img src="./images/eggsbenedict.jpg" alt="eggs benedict" class = "food-pic"></a>
+                  <!-- Card Text. Will turn all of these into react components -->
+                  <h5 class="card-title">Eggs Benedict with Homemade Hollandise Sauce</h5>
+                  <p class="card-text"> I promise you'll never pay $25 a plate at brunch again. This homemade hollandaise sauce is to die for!</p>
+                <!-- Card Footer -->
+                  <footer>
+                  <a href="./suzieq.html" class="btn btn-primary">Chef's Page</a>
+                  <a href="./eggsbenedict.html" class="btn btn-primary">Recipe</a>
+                </footer>
+                </div>
+              </div>
+
+                
+
+                <!-- Breakfast Wrap -->
+                <div class="card col-sm-12 mainCard">
+                  <!-- Card Header -->
+                  <div class= "card-header">
+                    <a href = "./jordanwall.html"  class = 'header-a-tag'>
+                        <div class="avatarBackground">
+                        <img src="./images/jordanwall.jpg" alt="Jordan Wall" class="avatar">
+                        </div>                          
+                      </a>
+                    <div class="userName">
+                      <a href="">
+                        Jordan Wall
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Card Body -->
+                  <div class="card-body">
+                    <a href="./breakfastwrap.html"><img src="./images/breakfastwrap.jpg" alt="breakfast wrap" class = "food-pic"></a>
+                    <!-- Card Text. Will turn all of these into react components -->
+                    <h5 class="card-title">Last Minute Breakfast Wrap </h5>
+                    <p class="card-text">Have you ever found yourself sprinting out the door, only to realize you forgot to make breakfast? This is the recipe for you! You can make this recipe start-to-finish in under 3 minutes. 
+                    </p>
+                  <!-- Card Footer -->
+                    <footer>
+                    <a href="./jordanwall.html" class="btn btn-primary">Chef's Page</a>
+                    <a href="./breakfastwrap.html" class="btn btn-primary">Recipe</a>
+                  </footer>
+                  </div>
+                </div>
+
+
+                <!-- Pizza  -->
+                <div class="card col-sm-12 mainCard">
+                  <!-- Card Header -->
+                  <div class= "card-header">
+                    <a href = "./jordanwall.html"  class = 'header-a-tag'>
+                        <div class="avatarBackground">
+                        <img src="./images/jordanwall.jpg" alt="Jordan Wall" class="avatar">
+                        </div>                          
+                      </a>
+                    <div class="userName">
+                      <a href="">
+                        Jordan Wall
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Card Body -->
+                  <div class="card-body">
+                    <a href="./pizza.html"><img src="./images/pizza.jpg" alt="Pizza" class = "food-pic"></a>
+                    <!-- Card Text. Will turn all of these into react components -->
+                    <h5 class="card-title"> Easy-Peasy Pizza </h5>
+                    <p class="card-text">If you're ever at the Wall house and even HINT that you're hungry, We'll probably whip you up this pizza. We always have the core ingredients on hand, and it only takes 20 minutes! 
+                    </p>
+                  <!-- Card Footer -->
+                    <footer>
+                    <a href="./jordanwall.html" class="btn btn-primary">Chef's Page</a>
+                    <a href="./pizza.html" class="btn btn-primary">Recipe</a>
+                  </footer>
+                  </div>
+                </div>
+
+
+                <!-- Perogies -->
+                <div class="card col-sm-12 mainCard">
+                  <!-- Card Header -->
+                  <div class= "card-header">
+                    <a href = "./kaitlynwall.html"  class = 'header-a-tag'>
+                        <div class="avatarBackground">
+                        <img src="./images/kaitlynwall.jpg" alt="Kaitlyn Wall" class="avatar">
+                        </div>                          
+                      </a>
+                    <div class="userName">
+                      <a href="kaitlynwall.html">
+                        Kaitlyn Wall
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Card Body -->
+                  <div class="card-body">
+                    <a href="./perogies.html"><img src="./images/perogies.jpg" alt="perogies" class = "food-pic"></a>
+                    <!-- Card Text. Will turn all of these into react components -->
+                    <h5 class="card-title">Perogies </h5>
+                    <p class="card-text">Move over Mrs. T! These light and fluffy perogies will knock your socks right off! 
+                    </p>
+                  <!-- Card Footer -->
+                    <footer>
+                    <a href="./kaitlynwall.html" class="btn btn-primary">Chef's Page</a>
+                    <a href="./perogies.html" class="btn btn-primary">Recipe</a>
+                  </footer>
+                  </div>
+                </div>
+
+                
+
+                
+
+                <!-- Ravioli -->
+                <div class="card col-sm-12 mainCard">
+                  <!-- Card Header -->
+                  <div class= "card-header">
+                    <a href = "./kaitlynwall.html"  class = 'header-a-tag'>
+                        <div class="avatarBackground">
+                        <img src="./images/kaitlynwall.jpg" alt="Kaitlyn Wall" class="avatar">
+                        </div>                          
+                      </a>
+                    <div class="userName">
+                      <a href="kaitlynwall.html">
+                        Kaitlyn Wall
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Card Body -->
+                  <div class="card-body">
+                    <a href="./ravioli.html"><img src="./images/ravioli.jpg" alt="this will be food" class = "food-pic"></a>
+                    <!-- Card Text. Will turn all of these into react components -->
+                    <h5 class="card-title">Lemon Basil Lobster Ravioli </h5>
+                    <p class="card-text">We made this dish for our "several fishes" dinner last Christmas, and it may very well be the BEST seafood dish I've ever had.                     </p>
+                  <!-- Card Footer -->
+                    <footer>
+                    <a href="./kaitlynwall.html" class="btn btn-primary">Chef's Page</a>
+                    <a href="./ravioli.html" class="btn btn-primary">Recipe</a>
+                  </footer>
+                  </div>
+                </div>
+
+
+                <!-- Chicken -->
+                <div class="card col-sm-12 mainCard">
+                  <!-- Card Header -->
+                  <div class= "card-header">
+                    <a href = "bobsmith.html"  class = 'header-a-tag'>
+                        <div class="avatarBackground">
+                        <img src="./images/bobsmith.jpg" alt="Bob Smith" class="avatar">
+                        </div>                          
+                      </a>
+                    <div class="userName">
+                      <a href="bobsmith.html">
+                        Bob Smith
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Card Body -->
+                  <div class="card-body">
+                    <a href="chicken.html"><img src="./images/chicken.jpg" alt="chicken" class = "food-pic"></a>
+                    <!-- Card Text. Will turn all of these into react components -->
+                    <h5 class="card-title">Bob's Famous Chicken Things</h5>
+                    <p class="card-text"> I love grilling chicken thighs on a Sunday afternoon. They make the best leftovers! I love putting them on sandwiches for weekday lunches.  </p>
+                  <!-- Card Footer -->
+                    <footer>
+                    <a href="./bobsmith.html" class="btn btn-primary">Chef's Page</a>
+                    <a href="./chicken.html" class="btn btn-primary">Recipe</a>
+                  </footer>
+                  </div>
+                </div>
+
+                
+
+                
+
+                
+
+                
+
+
+
+
+                
+
+                
+
+            
 
 
               </div>
@@ -138,55 +421,56 @@
 
 
                 <!-- Suggested Chef Template. Again React Component -->
-              <div class="card-header suggestedChef">
+              <a href ="./jordanwall.html" class="card-header suggestedChef">
                 <div>
                     <div class="avatarBackground">
-                      <img src="https://picsum.photos/400" alt="" class="avatar">
+                      <img src="./images/jordanwall.jpg" alt="Jordan Wall" class="avatar">
                     </div>                          
                 </div>
                 <div class="userName suggestedChefUserName">
-                    userName
+                    Jordan Wall
                 </div>
-              </div>
+              </a>
               
-              <div class="card-header suggestedChef">
+              <a href ="bobsmith.html" class="card-header suggestedChef">
                 <div>
                     <div class="avatarBackground">
-                      <img src="https://picsum.photos/400" alt="" class="avatar">
+                      <img src="./images/bobsmith.jpg" alt="Bob Smith" class="avatar">
                     </div>                          
                 </div>
                 <div class="userName suggestedChefUserName">
-                    userName
+                    Bob Smith
                 </div>
-              </div>
+              </a>
 
-              <div class="card-header suggestedChef">
+              <a href ="suzieq.html" class="card-header suggestedChef">
                 <div>
                     <div class="avatarBackground">
-                      <img src="https://picsum.photos/400" alt="" class="avatar">
+                      <img src="./images/suzieq.jpg" alt="Suzie Q" class="avatar">
                     </div>                          
                 </div>
                 <div class="userName suggestedChefUserName">
-                    userName
+                    Suzie Q
                 </div>
-              </div>
+              </a>
 
-              <div class="card-header suggestedChef">
+              <a href ="./kaitlynwall.html" class="card-header suggestedChef">
                 <div>
                     <div class="avatarBackground">
-                      <img src="https://picsum.photos/400" alt="" class="avatar">
+                      <img src="./images/kaitlynwall.jpg" alt="Kaitlyn Wall" class="avatar">
                     </div>                          
                 </div>
                 <div class="userName suggestedChefUserName">
-                    userName
+                    Kaitlyn Wall
                 </div>
-              </div>
+              </a>
+             
               
               <!-- footer of the footer -->
               <div class="card-body footer-of-footer">
                 <h7 class="card-title suggested-chef-title"> This is my footer. I will write all of the content here later. It will contain my name, as well as a link to my portfolio. </h7>
               </div>
-              
+             
             </div>
           </div>
             
@@ -202,6 +486,9 @@
         crossorigin="anonymous"
       ></script>
       <script src="script.js"></script>
+     
+      
 
+      
      </body>
 </html>
